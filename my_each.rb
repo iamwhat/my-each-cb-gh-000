@@ -1,4 +1,4 @@
 def my_each(collection) # put argument(s) here
   # code here
-  collect.each {|x| yield}
+  collection.each {|x| yield}
 end
